@@ -1,0 +1,79 @@
+---
+title: "Data Monetization"
+subtitle: "Getting a Return on Your Data Investment"
+author: |
+  | Michael Thomas, M.S.
+  | Chief Data Scientist
+  | Ketchbrook Analytics
+format: 
+  revealjs:
+    theme: sky
+    chalkboard: true
+    logo: www/ketchbrook_logo.png
+    incremental: false
+    transition: slide
+    preview-links: true
+---
+
+## Overview
+
+- Dashboards / web applications
+- API services
+- Productionized Machine Learning
+
+::: {.notes}
+- There are 3 ways that we look at "monetizing" data for an organization
+:::
+
+## Dashboards / Web Applications {.smaller}
+
+- Underestimated communication tool
+- Time-savings for analysts
+- Reinforces importance of data quality
+
+<br>
+
+:::: {.columns}
+
+::: {.column width="50%"}
+[Ohio Dept. of Health Youth Homelessness Dashboard](https://cohhio.org/youth-data)
+![](www/cohhio_dashboard_screenshot.png)
+:::
+
+::: {.column width="50%"}
+[Canadian Western Boreal Ecosystem Simulator](https://wbi-nwt.analythium.app/apps/nwt/)
+![](www/wbi_dashboard_screenshot.png)
+:::
+
+::::
+
+::: {.notes}
+- I've been the analyst who management comes to with a question, and I answer it, and then they say, "Well what about if we sliced the data this way?", and it becomes analysis paralysis
+- A dashboard with a few filter widgets on it can be a great way to free up time for your analyst and answer more questions, faster, for your management & decision-makers 
+- Sometimes descriptive analytics (telling you what has happened based upon your historical data) can be even *more* valuable than predictive analytics (trying to guess what's going to happen in the future)
+- Your users are entering data into the front-end of your internal applications, but if you are not providing them with dashboards and insights into the data that they've spent all this time entering & collecting, then it can be hard for them to feel incentivized to correctly enter that data in the first place -- leading back to data quality issues and data governance issues
+:::
+
+## API Services
+
+- Customer-facing or internal facing
+
+::: {.notes}
+- Google is a great example of this, their Maps API is used by many (including Ketchbrook) for geo-coding w/ Market Magnify
+- We have a client who is a target marketing firm, and they get a ton of customer account data from their bank clients each month. This enables them to do some benchmarking (e.g., this person with an account at your bank is in the top 13% of all customers in the U.S. in terms of their savings account balance)
+- Here's an example from one of our clients who provides a benchmarking API service that we helped build out for banks to consume within their CRM platform
+:::
+
+## API Services {transition="slide-in none-out"}
+
+![](www/api_flow_1.png)
+
+## API Services {transition="none"}
+
+![](www/api_flow_2.png)
+
+## API Services {transition="none"}
+
+![](www/api_flow_3.png){width=1050}
+
+
