@@ -1,5 +1,8 @@
 project:
-  title: "sim-presentation-2023"
+  title: "Data Monetization"
+  type: website
+  output-dir: docs
+  
 
 
 

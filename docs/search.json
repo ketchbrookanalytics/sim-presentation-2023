@@ -1,0 +1,58 @@
+[
+  {
+    "objectID": "sim-presentation-2023.html#overview",
+    "href": "sim-presentation-2023.html#overview",
+    "title": "Data Monetization",
+    "section": "Overview",
+    "text": "Overview\n\nDashboards / web applications\nAPI services\nProductionized Machine Learning\n\n\n\nThere are 3 ways that we look at “monetizing” data for an organization"
+  },
+  {
+    "objectID": "sim-presentation-2023.html#dashboards-web-applications",
+    "href": "sim-presentation-2023.html#dashboards-web-applications",
+    "title": "Data Monetization",
+    "section": "Dashboards / Web Applications",
+    "text": "Dashboards / Web Applications\n\nUnderestimated communication tool\nTime-savings for analysts\nReinforces importance of data quality\n\n\n\n\nOhio Dept. of Health Youth Homelessness Dashboard \n\nCanadian Western Boreal Ecosystem Simulator \n\n\n\n\nI’ve been the analyst who management comes to with a question, and I answer it, and then they say, “Well what about if we sliced the data this way?”, and it becomes analysis paralysis\nA dashboard with a few filter widgets on it can be a great way to free up time for your analyst and answer more questions, faster, for your management & decision-makers\nSometimes descriptive analytics (telling you what has happened based upon your historical data) can be even more valuable than predictive analytics (trying to guess what’s going to happen in the future)\nYour users are entering data into the front-end of your internal applications, but if you are not providing them with dashboards and insights into the data that they’ve spent all this time entering & collecting, then it can be hard for them to feel incentivized to correctly enter that data in the first place – leading back to data quality issues and data governance issues"
+  },
+  {
+    "objectID": "sim-presentation-2023.html#api-services",
+    "href": "sim-presentation-2023.html#api-services",
+    "title": "Data Monetization",
+    "section": "API Services",
+    "text": "API Services\n\nCustomer-facing or internal facing\n\n\n\nGoogle is a great example of this, their Maps API is used by many (including Ketchbrook) for geo-coding w/ Market Magnify\nWe have a client who is a target marketing firm, and they get a ton of customer account data from their bank clients each month. This enables them to do some benchmarking (e.g., this person with an account at your bank is in the top 13% of all customers in the U.S. in terms of their savings account balance)\nHere’s an example from one of our clients who provides a benchmarking API service that we helped build out for banks to consume within their CRM platform"
+  },
+  {
+    "objectID": "sim-presentation-2023.html#api-services-1",
+    "href": "sim-presentation-2023.html#api-services-1",
+    "title": "Data Monetization",
+    "section": "API Services",
+    "text": "API Services"
+  },
+  {
+    "objectID": "sim-presentation-2023.html#api-services-2",
+    "href": "sim-presentation-2023.html#api-services-2",
+    "title": "Data Monetization",
+    "section": "API Services",
+    "text": "API Services"
+  },
+  {
+    "objectID": "sim-presentation-2023.html#api-services-3",
+    "href": "sim-presentation-2023.html#api-services-3",
+    "title": "Data Monetization",
+    "section": "API Services",
+    "text": "API Services"
+  },
+  {
+    "objectID": "sim-presentation-2023.html#machine-learning",
+    "href": "sim-presentation-2023.html#machine-learning",
+    "title": "Data Monetization",
+    "section": "Machine Learning",
+    "text": "Machine Learning\n\nData enables the possibility of ML\n\nExample ML use cases:\n\n\nAutomated Lending\nTarget Marketing\nCustomer Churn\nInsurance Pricing\n\n\n\n\nJust because we have data in a database somewhere, doesn’t automatically mean that we can start doing machine learning – it needs to start with a use case, and then we either have the data available to solve that business problem with ML, or we need to go and get it\nSome example use cases include:\n\nautomated lending\ntarget marketing\ncustomer churn\ninsurance pricing"
+  },
+  {
+    "objectID": "sim-presentation-2023.html#q-a-contact",
+    "href": "sim-presentation-2023.html#q-a-contact",
+    "title": "Data Monetization",
+    "section": "Q & A / Contact",
+    "text": "Q & A / Contact\n\nketchbrookanalytics.com\n\nmthomas@ketchbrookanalytics.com\n\nlinkedin.com/in/michaeljthomas2/"
+  }
+]
