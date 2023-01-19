@@ -54,7 +54,7 @@ format:
 - Your users are entering data into the front-end of your internal applications, but if you are not providing them with dashboards and insights into the data that they've spent all this time entering & collecting, then it can be hard for them to feel incentivized to correctly enter that data in the first place -- leading back to data quality issues and data governance issues
 :::
 
-## API Services
+## API Services {transition="slide-in none-out"}
 
 - Customer-facing or internal facing
 
@@ -64,16 +64,52 @@ format:
 - Here's an example from one of our clients who provides a benchmarking API service that we helped build out for banks to consume within their CRM platform
 :::
 
-## API Services {transition="slide-in none-out"}
+## API Services {transition="none"}
 
-![](www/api_flow_1.png)
+<img src="www/api_flow_1.png">
 
 ## API Services {transition="none"}
 
-![](www/api_flow_2.png)
+<img src="www/api_flow_2.png">
 
 ## API Services {transition="none"}
 
-![](www/api_flow_3.png){width=1050}
+<img src="www/api_flow_3.png">
+
+## Machine Learning
+
+- Data enables the *possibility* of ML
+
+**Example ML use cases**: 
+
+::: {.incremental}
+- Automated Lending
+- Target Marketing
+- Customer Churn
+- Insurance Pricing
+:::
+
+::: {.notes}
+- Just because we have data in a database somewhere, doesn't automatically mean that we can start doing machine learning -- it needs to start with a use case, and then we either have the data available to solve that business problem with ML, or we need to go and get it
+- Some example use cases include:
+  + automated lending
+  + target marketing
+  + customer churn
+  + insurance pricing
+:::
+
+## Q & A / Contact
+
+<br>
+
+[ketchbrookanalytics.com](https://www.ketchbrookanalytics.com)
+
+<br>
+
+[mthomas@ketchbrookanalytics.com](mailto:mthomas@ketchbrookanalytics.com)
+
+<br>
+
+[linkedin.com/in/michaeljthomas2/](https://www.linkedin.com/in/michaeljthomas2/)
 
 
