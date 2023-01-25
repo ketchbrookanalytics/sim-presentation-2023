@@ -1,10 +1,24 @@
 [
   {
-    "objectID": "sim-presentation-2023.html#overview",
-    "href": "sim-presentation-2023.html#overview",
+    "objectID": "sim-presentation-2023.html#monetizing-data-products",
+    "href": "sim-presentation-2023.html#monetizing-data-products",
     "title": "Data Monetization",
-    "section": "Overview",
-    "text": "Overview\n\nDashboards / web applications\nAPI services\nProductionized Machine Learning\n\n\n\nThere are 3 ways that we look at “monetizing” data for an organization"
+    "section": "Monetizing Data Products",
+    "text": "Monetizing Data Products\n\nWhat is a “Data Product”?\n\n\nA data product is a piece of software that delivers data to an end consumer in a way that provides value to them.\n\n\n\n< Tell podcast / Tom Davenport / CDO vs. CDAO officer story >\nHow do we monetize our data? We have to build something that customers (either internal or external customers) find useful\nLet’s focus on that third word from the end of the quote: “value”; what makes a data valuable?"
+  },
+  {
+    "objectID": "sim-presentation-2023.html#monetizing-data-products-1",
+    "href": "sim-presentation-2023.html#monetizing-data-products-1",
+    "title": "Data Monetization",
+    "section": "Monetizing Data Products",
+    "text": "Monetizing Data Products\n\nData provides value when it is:\n\n\nAccurate\nRelevant\nTimely\n\n\n\n\nData provides value when it is accurate, relevant, and timely\nNotice the very first point – “accurate”\n\nThis is all predicated on the fact that we have good data in the first place\nData governance enables the possibility for monetizing your data, because no one (internal or external) is going to “buy” your data product if it can’t get them accurate data, that’s relevant to them, at the time they need it"
+  },
+  {
+    "objectID": "sim-presentation-2023.html#types-of-data-products",
+    "href": "sim-presentation-2023.html#types-of-data-products",
+    "title": "Data Monetization",
+    "section": "Types of Data Products",
+    "text": "Types of Data Products\n\n\nDashboards / web applications\nAPI services\nProductionized Machine Learning\n\n\n\n\nThere are 3 types of data products that we use to “monetize” data for the organizations we work with\n\nDashboards / web applications\nAPI services\nProductionized Machine Learning\n\nWhat we are going to do in the next few minutes is walk through actual, practical use cases & examples of each of these types of data products"
   },
   {
     "objectID": "sim-presentation-2023.html#dashboards-web-applications",
@@ -47,6 +61,20 @@
     "title": "Data Monetization",
     "section": "Machine Learning",
     "text": "Machine Learning\n\nData enables the possibility of ML\n\nExample ML use cases:\n\n\nAutomated Lending\nTarget Marketing\nCustomer Churn\nInsurance Pricing\n\n\n\n\nJust because we have data in a database somewhere, doesn’t automatically mean that we can start doing machine learning – it needs to start with a use case, and then we either have the data available to solve that business problem with ML, or we need to go and get it\nSome example use cases include:\n\nautomated lending\ntarget marketing\ncustomer churn\ninsurance pricing"
+  },
+  {
+    "objectID": "sim-presentation-2023.html#machine-learning-1",
+    "href": "sim-presentation-2023.html#machine-learning-1",
+    "title": "Data Monetization",
+    "section": "Machine Learning",
+    "text": "Machine Learning\n\n\nWhen we think of productionizing machine learning we really think about doing that two ways: - wrapping up the model inside a REST API so that it can be used for on-demand predictions - So let’s use the automated lending example [walk through diagram]"
+  },
+  {
+    "objectID": "sim-presentation-2023.html#machine-learning-2",
+    "href": "sim-presentation-2023.html#machine-learning-2",
+    "title": "Data Monetization",
+    "section": "Machine Learning",
+    "text": "Machine Learning\n\n\n… or scoring a batch of observations against the model as part of a nightly process"
   },
   {
     "objectID": "sim-presentation-2023.html#q-a-contact",

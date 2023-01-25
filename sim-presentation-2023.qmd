@@ -15,14 +15,55 @@ format:
     preview-links: true
 ---
 
-## Overview
+## Monetizing Data Products {transition="none-out"}
 
+<br> 
+
+What is a "Data Product"?
+
+<br>
+
+> A data product is a piece of software that delivers data to an end consumer in a way that provides value to them.
+
+::: {.notes}
+- < Tell podcast / Tom Davenport / CDO vs. CDAO officer story >
+- How do we monetize our data?  We have to build something that customers (either internal or external customers) find useful
+- Let's focus on that third word from the end of the quote: "value"; what makes a data valuable?
+:::
+
+## Monetizing Data Products {transition="none-in"}
+
+<br>
+
+Data provides value when it is:
+
+::: {.incremental}
+1. Accurate
+2. Relevant
+2. Timely
+:::
+
+::: {.notes}
+- Data provides value when it is accurate, relevant, and timely
+- Notice the very first point -- *"accurate"*
+  + This is all predicated on the fact that we have good data in the first place
+  + Data governance *enables* the possibility for monetizing your data, because no one (internal or external) is going to "buy" your data product if it can't get them *accurate* data, that's *relevant* to them, at the *time* they need it 
+:::
+
+## Types of Data Products
+
+::: {.incremental}
 - Dashboards / web applications
 - API services
 - Productionized Machine Learning
+:::
 
 ::: {.notes}
-- There are 3 ways that we look at "monetizing" data for an organization
+- There are 3 types of data products that we use to "monetize" data for the organizations we work with
+  + Dashboards / web applications
+  + API services
+  + Productionized Machine Learning
+- What we are going to do in the next few minutes is walk through actual, practical use cases & examples of each of these types of data products
 :::
 
 ## Dashboards / Web Applications {.smaller}
@@ -76,7 +117,7 @@ format:
 
 <img src="www/api_flow_3.png">
 
-## Machine Learning
+## Machine Learning {transition="none-out"}
 
 - Data enables the *possibility* of ML
 
@@ -96,6 +137,24 @@ format:
   + target marketing
   + customer churn
   + insurance pricing
+:::
+
+## Machine Learning {transition="none-in"}
+
+<img src="www/model_as_api.png">
+
+::: {.notes}
+When we think of productionizing machine learning we really think about doing that two ways:
+  - wrapping up the model inside a REST API so that it can be used for on-demand predictions
+- So let's use the automated lending example [walk through diagram]
+:::
+
+## Machine Learning {transition="none-in"}
+
+<img src="www/model_as_batch.png">
+
+::: {.notes}
+... or scoring a batch of observations against the model as part of a nightly process
 :::
 
 ## Q & A / Contact
